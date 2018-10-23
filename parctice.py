@@ -11,6 +11,7 @@ class C():
 def fun():
     print(issubclass(B,A))
     print(issubclass(A,B))
-
+    
+print("测试github")
 
 
