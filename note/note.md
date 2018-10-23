@@ -10,7 +10,7 @@
     - exec() : 功能类似,但是没有返回结果
      
 
-#### 字符串常用方法：
+#### 字符串常用方法
    - 判断字符串内容的常用方法：
       - isalnum()  : 字符串只包含数字和大小写字母
       - isalpha()  : 字符串只包含 大小写字母组成
@@ -21,11 +21,11 @@
       - isspance() : 字符串都是空白字符
 
 
-####列表推导式：
-    """
-        li = [1,2,3,4,"aaa","AAA"]
-        li2 = [k.lower() for k in li if str(k).isupper()]
-    """
+#### 列表推导式
+     """
+         li = [1,2,3,4,"aaa","AAA"]
+         li2 = [k.lower() for k in li if str(k).isupper()]
+     """
     
 ---
 
@@ -33,14 +33,14 @@
     格式为：
         lambda x,y : x+y
     
-#####if 表达式
+##### if 表达式
     格式为：
         x if 表达式 else y
         当表达式成立(Ture)时返回x 否则返回 y
         
 ## OOP
 
-###对象与类
+### 对象与类
      stu = Student()
      stu叫做实例对象,Student叫做类对象
      
@@ -61,7 +61,7 @@
         - issubclass(class A,classinfo B) : 判断A是否是B的子类
         - isinstance(object A,classinfo B) : 判断A是否是B的实例对象
         
-###魔法方法：
+### 魔法方法：
 
    - 常用方法：
    
